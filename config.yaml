@@ -1,0 +1,4 @@
+# CONFIG
+IMAGE_SOURCE_PATH: /path/to/assets # Path where screenshots of obsidian are located
+JEKYLL_PATH: /path/to/jekyll-blog # Path to jekyll blog
+AUTHOR: Max Patternman
