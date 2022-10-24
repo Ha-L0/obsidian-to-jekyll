@@ -60,7 +60,7 @@ def main():
         base_name = base_name.replace(" ","-").replace("_","-")
         c_time = os.path.getctime(args.md_path)
         dt_c = datetime.fromtimestamp(c_time)
-        date_string = dt_c.strftime("%Y-%m-%d") + "-"
+        date_string = dt_c.strftime("%Y-%m-%d") + "-[" + AUTHOR + "]-"
         return POST_PATH.joinpath(date_string + base_name + ".md")
 
     jekyll_md_file = create_new_file_name(INPUT_PATH)
