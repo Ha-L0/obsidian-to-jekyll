@@ -19,3 +19,9 @@ $ pip install -r requirements.txt
 ```
 
 change config and post writeups.
+
+## how to use the tool
+
+```
+$ python3 obs_2_jekyll.py <path_to_obsidian_md_file>
+```
